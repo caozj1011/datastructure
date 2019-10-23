@@ -64,4 +64,10 @@ public class SparseArrayTest {
 
         fileInputStream.close();
     }
+
+    @Test
+    public void test02(){
+        System.out.println(Integer.toBinaryString(-1));
+        System.out.println(Integer.toBinaryString(-1 >>> 1));
+    }
 }

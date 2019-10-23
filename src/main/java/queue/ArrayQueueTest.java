@@ -1,4 +1,6 @@
-package arrayqueue;
+package queue;
+
+import org.junit.Test;
 
 import java.util.Scanner;
 
@@ -62,37 +64,43 @@ public class ArrayQueueTest {
     }
 
 
-    public static void main(String[] args) {
-        ArrayQueueTest arrayQueueTest = new ArrayQueueTest(3);
+//    public static void main(String[] args) {
+//        ArrayQueueTest arrayQueueTest = new ArrayQueueTest(3);
+//
+//        Scanner scanner = new Scanner(System.in);
+//
+//        while (true) {
+//            String msg = scanner.nextLine();
+//            switch (msg) {
+//                case "p":
+//                    System.out.println("加入操作，请输入要增加的元素：");
+//                    int data = scanner.nextInt();
+//                    arrayQueueTest.put(data);
+//                    arrayQueueTest.printQueue();
+//                    break;
+//                case "g":
+//                    System.out.println("获取操作");
+//                    arrayQueueTest.get();
+//                    arrayQueueTest.printQueue();
+//                    break;
+//                case "f":
+//                    System.out.println(arrayQueueTest.isFull());
+//                    break;
+//                case "e":
+//                    System.out.println(arrayQueueTest.isFull());
+//                    break;
+//                default:
+//            }
+//
+//            System.out.println(msg);
+//        }
+//
+//    }
 
-        Scanner scanner = new Scanner(System.in);
 
-        while (true) {
-            String msg = scanner.nextLine();
-            switch (msg) {
-                case "p":
-                    System.out.println("加入操作，请输入要增加的元素：");
-                    int data = scanner.nextInt();
-                    arrayQueueTest.put(data);
-                    arrayQueueTest.printQueue();
-                    break;
-                case "g":
-                    System.out.println("获取操作");
-                    arrayQueueTest.get();
-                    arrayQueueTest.printQueue();
-                    break;
-                case "f":
-                    System.out.println(arrayQueueTest.isFull());
-                    break;
-                case "e":
-                    System.out.println(arrayQueueTest.isFull());
-                    break;
-                default:
-            }
 
-            System.out.println(msg);
-        }
 
-    }
+
+
 
 }
