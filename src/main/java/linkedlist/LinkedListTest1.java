@@ -1,6 +1,7 @@
 package linkedlist;
 
-import java.util.LinkedList;
+
+import java.util.HashMap;
 
 /**
  * @description: 递归反转链表
@@ -59,7 +60,13 @@ public class LinkedListTest1 {
 
 
     public static void main(String[] args) {
-        Node node = new Node(1);
-
+        HashMap hashMap = new HashMap();
+        HashMap hashMap1 = new HashMap();
+        HashMap hashMap2 = new HashMap();
+        System.out.println(hashMap.hashCode());
+        System.out.println(hashMap1.hashCode());
+        System.out.println(hashMap2.hashCode());
+        System.out.println("sssss".hashCode());
+        System.out.println("sss1ss".hashCode());
     }
 }
