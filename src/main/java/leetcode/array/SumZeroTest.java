@@ -3,11 +3,11 @@ package leetcode.array;
 import org.junit.Test;
 
 /**
- * @description: 数组中心索引
+ * @description: 数组元素和为 0
  * @author: caozhijia
  * @create: 2019/12/26 15:07
  *
- * 给你一个整数 n，请你返回 任意 一个由 n 个 各不相同 的整数组成的数组，并且这 n 个数相加和为 0 。
+ * 给你一个整数n，请你返回任意一个由 n 个各不相同的整数组成的数组，并且这 n 个数相加和为 0 。
  *
  *  
  *
